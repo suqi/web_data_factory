@@ -1,6 +1,6 @@
 # Python社区一些非常好用的模块
 
-> 这里精选了一些网页抓取和数据处理相关的Python开源模块
+> 这里精选了一些网页抓取和数据处理相关的Python开源模块  
 > 每个模块的使用文档都可以通过pypi.python.org，或者通过github.com找到
 
 1. 网络
@@ -198,26 +198,26 @@
     - WikiTeam - 下载和保存wikis的工具。
 
 15. WebSocket - 用于WebSocket的库。
-- Crossbar - 开源的应用消息传递路由器（Python实现的用于Autobahn的WebSocket和WAMP）。
-- AutobahnPython - 提供了WebSocket协议和WAMP协议的Python实现并且开源。
-- WebSocket-for-Python - Python 2和3以及PyPy的WebSocket客户端和服务器库。
+    - Crossbar - 开源的应用消息传递路由器（Python实现的用于Autobahn的WebSocket和WAMP）。
+    - AutobahnPython - 提供了WebSocket协议和WAMP协议的Python实现并且开源。
+    - WebSocket-for-Python - Python 2和3以及PyPy的WebSocket客户端和服务器库。
 
-16.  DNS解析
+16. DNS解析
     - dnsyo - 在全球超过1500个的DNS服务器上检查你的DNS。
     - pycares - c-ares的接口。c-ares是进行DNS请求和异步名称决议的C语言库。
 
 17. 计算机视觉 
-- OpenCV - 开源计算机视觉库。
-- SimpleCV – 用于照相机、图像处理、特征提取、格式转换的简介，可读性强的接口（基于OpenCV）。
-- mahotas – 快速计算机图像处理算法（完全使用 C++ 实现），完全基于 numpy 的数组作为它的数据类型。
+    - OpenCV - 开源计算机视觉库。
+    - SimpleCV – 用于照相机、图像处理、特征提取、格式转换的简介，可读性强的接口（基于OpenCV）。
+    - mahotas – 快速计算机图像处理算法（完全使用 C++ 实现），完全基于 numpy 的数组作为它的数据类型。
 
 18. 代理服务器
-- shadowsocks – 一个快速隧道代理，可帮你穿透防火墙（支持TCP和UDP，TFO，多用户和平滑重启，目的IP黑名单）。
-- tproxy - tproxy是一个简单的TCP路由代理（第7层），基于Gevent，用Python进行配置。
+    - shadowsocks – 一个快速隧道代理，可帮你穿透防火墙（支持TCP和UDP，TFO，多用户和平滑重启，目的IP黑名单）。
+    - tproxy - tproxy是一个简单的TCP路由代理（第7层），基于Gevent，用Python进行配置。
 
 19. 其他Python工具列表
-- awesome-python
-- pycrumbs
-- python-github-projects
-- python_reference
-- pythonidae
+    - awesome-python
+    - pycrumbs
+    - python-github-projects
+    - python_reference
+    - pythonidae
