@@ -6,13 +6,13 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class FundPipeline(object):
+class NamelistPipeline(object):
     def process_item(self, item, spider):
         import sys
         reload(sys)
         sys.setdefaultencoding('utf-8')
 
-        f = open("data.json1", 'w')
+        f = open("data.txt", 'a')
 
         import sqlite3
         conn = sqlite3.connect("test.db")
@@ -21,6 +21,7 @@ class FundPipeline(object):
         # print line
 
         f.write(line)
+        f.write("\n")
         f.close()
 
         conn.execute(u"insert into fund values ('%s', '%s')" % (item["name"] ,item["code"]))
