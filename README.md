@@ -1,6 +1,7 @@
 # web_data_factory
 > 如何从互联网上收集数据，并使用上这些数据？这里提供了一些例子。
 
+- `faq.md` 列举了所有经常遇到的问题
 - `docs`目录里是一些参考文档
 - `code`目录里是所有的参考代码
 - `notebook`目录里是一些ipython notebook的交互式实例
